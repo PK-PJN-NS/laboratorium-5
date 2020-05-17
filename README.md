@@ -165,7 +165,7 @@ Zaradzimy temu na dwa sposoby:
     `TfidfVectorizer` korzysta ze wzoru
     [TF-IDF](https://pl.wikipedia.org/wiki/TFIDF)
     (*term frequency-inverse document frequency*),
-    który przypisuje niższe wagi częstym cechom,
+    który przypisuje niższe wagi częstym wyrazom,
     a wyższe — rzadkim. Oto przykład:
 
     ```python
