@@ -187,12 +187,12 @@ Zaradzimy temu na dwa sposoby:
     usunąć fragment `0-9` z napisu przy zmiennej `NONLETTERS_RE`.
     Stworzyć nowy model itd.
 
-    c. Dotychczas pozostawialiśmy argumenty
+    c. Dotychczas nie pozostawialiśmy argumentów
     szablonów Wikipedii w tekscie artykułów.
     Wiele artykułów ma na końcu rozbudowane
     szablony nawigacyjne, np. do innych dzieł
     tego samego twórcy.
-    Sprawdzić wpływ całkowitego usuwania szablonów
+    Sprawdzić wpływ pozostawiania argumentów szablonów
     na jakość modelu:
     zamienić wartość `keep_template_params`
     w wywołaniu funkcji `mwp.parse()`
