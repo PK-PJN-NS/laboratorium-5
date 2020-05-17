@@ -147,7 +147,8 @@ powinno być silniejszym sygnałem
 podobieństwa tekstów.
 Zaradzimy temu na dwa sposoby:
 
-    a. Użyjemy listy *wyrazów nieinformatywnych* (*stop words*).
+    a. Użyjemy listy *wyrazów nieinformatywnych* (*stop words*),
+    których wystąpienia nie będą zliczane.
     Skopiować listę takich wyrazów
     ze strony pod adresem https://pl.wikipedia.org/wiki/Wikipedia:Stopwords
     do zmiennej `STOP_WORDS`,
