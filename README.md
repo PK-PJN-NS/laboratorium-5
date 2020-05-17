@@ -176,7 +176,7 @@ Zaradzimy temu na dwa sposoby:
 11. Przeprowadzić następujące eksperymenty:
 
     a. Dodać do `STOP_WORDS` wybrane (z głową!)
-    naczęstsze wyrazy, wypisane przez program
+    najczęstsze wyrazy, wypisane przez program
     `zadanie.py`, np. 'kategoria', 'linki', 'zewnętrzne' itp.
     Stworzyć nowy model itd.
 
