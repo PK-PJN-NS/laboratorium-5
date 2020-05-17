@@ -32,7 +32,7 @@ dla różnych wersji opracowywanego systemu.
 
 4. Systemy rekomendacji oparte na treści
 (*content-based recommendations*)
-polecają obiekty na podstawie ich cech.
+polecają obiekty na podstawie cech tych obiektów.
 Tym się różnią od systemów rekomendacji
 korzystających z zachowań użytkowników
 (*collaborative filtering*)
@@ -141,7 +141,7 @@ w Wikipedii).
 jest przypisywanie jednakowej wagi
 liczebności wyrazów częstych (np. *się*, *rok*, *film*),
 które mało wpływają na znaczenie tekstu,
-i wyrazów rzadkich (np. *Verne*, *żeglarz*),
+i wyrazów rzadkich (np. *Verne*, *Sherlock*, *żeglarz*),
 których współwystępowanie
 powinno być silniejszym sygnałem
 podobieństwa tekstów.
@@ -186,7 +186,7 @@ należy go wycofać przed przejściem do kolejnego podpunktu.
 
     a. Dodać do `STOP_WORDS` wybrane (z głową!)
     najczęstsze wyrazy, wypisane przez program
-    `zadanie.py`, np. 'kategoria', 'linki', 'zewnętrzne' itp.
+    `zadanie.py`, np. *kategoria*, *linki*, *zewnętrzne* itp.
     Stworzyć nowy model itd.
 
     b. Dotychczas usuwaliśmy liczby z tekstów artykułów.
@@ -201,7 +201,7 @@ należy go wycofać przed przejściem do kolejnego podpunktu.
     tego samego twórcy.
     Sprawdzić wpływ pozostawiania argumentów szablonów
     na jakość modelu:
-    zamienić wartość `keep_template_params`
+    zmienić wartość `keep_template_params`
     w wywołaniu funkcji `mwp.parse()`
     z `False` na `True`.
     Stworzyć nowy model itd.
