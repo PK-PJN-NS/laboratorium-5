@@ -158,7 +158,7 @@ Zaradzimy temu na dwa sposoby:
     programu `zadanie.py`,
     skopiować testowe rekomendacje do dokumentu tekstowego
     i ocenić, czy są sensowniejsze.
-    Opcjonalnie skopiować `model.pickle` pod inną nazwę.
+    Opcjonalnie przenieść `model.pickle` pod inną nazwę.
 
     b. Zastąpić `CountVectorizer` przez `TfidfVectorizer`,
     stworzyć nowy model itd.
