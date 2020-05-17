@@ -173,7 +173,9 @@ Zaradzimy temu na dwa sposoby:
             [0.279, 0.   , 0.   , 0.392, 0.392, 0.784]])
     ```
 
-11. Przeprowadzić następujące eksperymenty:
+11. Przeprowadzić poniższe eksperymenty.
+Jeśli jakaś poprawka nie poprawia jakości modelu,
+należy ją wycofać przed przejściem do kolejnego podpunktu.
 
     a. Dodać do `STOP_WORDS` wybrane (z głową!)
     najczęstsze wyrazy, wypisane przez program
