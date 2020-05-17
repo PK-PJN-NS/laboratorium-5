@@ -98,11 +98,16 @@ o nazwie `model.pickle`.
 Zmienić jego nazwę na `baseline.pickle`
 i uruchomić program `rekomenduj.py`
 z argumentem `baseline.pickle`.
-W Unixie robi się to tak:
-
-    ```
-    ./rekomenduj.py baseline.pickle
-    ```
+Program `rekomenduj.py` podaje takie tytuły dzieł,
+dla których jak najmniejsza jest *odległość kosinusowa*
+multizbiorów wyrazów w dotyczących ich artykułach
+od multizbioru artykułu o danym dziele.
+Odległość kosinusowa wynosi 1 − cos *θ*,
+gdzie *θ* to kąt pomiędzy wektorami,
+reprezentującymi odpowiednie multizbiory
+(patrz:
+[*cosine similarity*](https://en.wikipedia.org/wiki/Cosine_similarity)
+w Wikipedii).
 
 9. Wpisujemy tytuły naszych pięciu dzieł
 i kopiujemy do dokumentu tekstowego
@@ -126,16 +131,6 @@ Jeśli system rekomenduje tytuł takiego artykułu,
 nie należy tego uważać za obciążającą go wadę,
 tylko ignorować ten tytuł
 przy porównywaniu jakości rekomendacji.
-Program `rekomenduj.py` podaje takie tytuły dzieł,
-dla których jak najmniejsza jest *odległość kosinusowa*
-multizbiorów wyrazów w dotyczących ich artykułach
-od multizbioru artykułu o danym dziele.
-Odległość kosinusowa jest równa 1 − cos *θ*,
-gdzie *θ* to kąt pomiędzy wektorami,
-reprezentującymi odpowiednie multizbiory
-(patrz:
-[*cosine similarity*](https://en.wikipedia.org/wiki/Cosine_similarity)
-w Wikipedii).
 
 10. Główną wadą multizbiorów wyrazów
 jest przypisywanie jednakowej wagi
