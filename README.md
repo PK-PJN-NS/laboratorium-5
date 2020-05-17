@@ -201,13 +201,16 @@ Zaradzimy temu na dwa sposoby:
 
     d. Ze znanych powodów nie stosujemy
     stemmingu ani lematyzacji wyrazów.
-    Sprawdzić wpływ ich substytutu:
-    używania *N*-gramów na jakość modelu.
+    Sprawdzić wpływ na jakość modelu
+    używania ich substytutu: *N*-gramów.
     Zmienić w wywołaniu `TfidfVectorizer`
     `analyzer` na `char_wb`,
     dopisać `ngram_range=(5, 5)`
     i `max_features=40_000` (na przykład).
-    Parametr `max_features` jest konieczny,
+    Parametr `max_features`, który określa,
+    ile najczęstszych *N*-gramów należy
+    pozostawić w modelu, jest niezbędny,
+    żeby model miał rozsądne rozmiary,
     bo hasła zawierają znacznie więcej
     różnych *N*-gramów niż różnych wyrazów.
     Stworzyć nowy model itd.
