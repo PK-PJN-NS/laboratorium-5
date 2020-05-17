@@ -105,7 +105,7 @@ W Unixie robi się to tak:
     ```
 
 9. Wpisujemy tytuły naszych pięciu dzieł
-i kopiujemy do pliku tekstowego
+i kopiujemy do dokumentu tekstowego
 podane przez program rekomendacje
 (w tej wersji programu `zadanie.py` będą one nędzne;
 wkrótce je poprawimy).
@@ -156,7 +156,7 @@ Zaradzimy temu na dwa sposoby:
     jako argument `CountVectorizer`,
     stworzyć nowy model przez uruchomienie
     programu `zadanie.py`,
-    skopiować testowe rekomendacje do pliku tekstowego
+    skopiować testowe rekomendacje do dokumentu tekstowego
     i ocenić, czy są sensowniejsze.
     Opcjonalnie skopiować `model.pickle` pod inną nazwę.
 
