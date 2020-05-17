@@ -63,10 +63,8 @@ w odpowiednim napisie.
 Najlepiej wyjaśni to przykład.
 
     ```python
-    >>> # Używamy własnego token_pattern
-    ... # w celach dydaktycznych,
-    ... # ponieważ domyślny token_pattern
-    ... # ignoruje jednoliterowe wyrazy.
+    >>> # Używamy własnego token_pattern w celach dydaktycznych,
+    ... # ponieważ domyślny token_pattern ignoruje jednoliterowe wyrazy.
     >>> v = CountVectorizer(
     ...     token_pattern=r'\b\w+\b')
     >>> X = v.fit_transform([
@@ -194,7 +192,7 @@ Zaradzimy temu na dwa sposoby:
     Wiele artykułów ma na końcu rozbudowane
     szablony nawigacyjne, np. do innych dzieł
     tego samego twórcy.
-    Sprawdzić wpływ całkowitego usuwania szalonów
+    Sprawdzić wpływ całkowitego usuwania szablonów
     na jakość modelu:
     zamienić wartość `keep_template_params`
     w wywołaniu funkcji `mwp.parse()`
