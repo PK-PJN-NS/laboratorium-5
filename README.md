@@ -116,9 +116,9 @@ naciskać klawisz tabulacji,
 Uwaga: z powodu niedoskonałej hierarchii kategorii
 w Wikipedii bazy danych zawierają śladowe ilości artykułów,
 które nie dotyczą dzieł literackich lub filmowych.
-Jeśli system rekomenduje takie dzieło,
+Jeśli system rekomenduje tytuł takiego artykułu,
 nie należy tego uważać za obciążającą go wadę,
-tylko ignorować to dzieło
+tylko ignorować ten tytuł
 przy porównywaniu jakości rekomendacji.
 Program `rekomenduj.py` podaje takie tytuły dzieł,
 dla których jak najmniejsza jest *odległość kosinusowa*
