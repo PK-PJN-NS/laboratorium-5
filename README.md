@@ -109,10 +109,16 @@ i kopiujemy do pliku tekstowego
 podane przez program rekomendacje
 (w tej wersji programu `zadanie.py` będą one nędzne;
 wkrótce je poprawimy).
+Jeśli któraś rekomendacja nic nam nie mówi,
+zaglądamy do Wikipedii,
+żeby sobie wyrobić o niej zdanie.
 Przy wpisywaniu tytułów
-nie krępujemy się cały czas
-naciskać klawisz tabulacji,
+nie boimy się naciskania klawisza tabulacji,
 żeby je uzupełniać.
+Powtarzam: nie boimy się.
+Dla zaznajomienia się z działaniem uzupełniania
+proszę wpisać dwa pierwsze znaki upatrzonego tytułu
+i dwa razy nacisnąć klawisz tabulacji.
 Uwaga: z powodu niedoskonałej hierarchii kategorii
 w Wikipedii bazy danych zawierają śladowe ilości artykułów,
 które nie dotyczą dzieł literackich lub filmowych.
@@ -174,8 +180,8 @@ Zaradzimy temu na dwa sposoby:
     ```
 
 11. Przeprowadzić poniższe eksperymenty.
-Jeśli jakaś poprawka nie poprawia jakości modelu,
-należy ją wycofać przed przejściem do kolejnego podpunktu.
+Jeśli któryś eksperyment nie poprawia jakości modelu,
+należy go wycofać przed przejściem do kolejnego podpunktu.
 
     a. Dodać do `STOP_WORDS` wybrane (z głową!)
     najczęstsze wyrazy, wypisane przez program
