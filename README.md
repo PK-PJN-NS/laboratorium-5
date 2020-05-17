@@ -84,8 +84,8 @@ Do konstruktora klasy `CountVectorizer`
 przekazujemy argumenty,
 oznaczające tworzenie cech z wyrazów
 (w odróżnieniu np. od *N*-gramów)
-i odrzucanie wyrazów, które łącznie
-występują w tekstach mniej niż 3 razy:
+i odrzucanie wyrazów, które występują
+w mniejszej liczbie artykułów niż 3:
 
     ```python
     vectorizer = CountVectorizer(
@@ -141,7 +141,7 @@ w Wikipedii).
 jest przypisywanie jednakowej wagi
 liczebności wyrazów częstych (np. *się*, *rok*, *film*),
 które mało wpływają na znaczenie tekstu,
-i wyrazów rzadkich (np. *verne*, *żeglarz*),
+i wyrazów rzadkich (np. *Verne*, *żeglarz*),
 których współwystępowanie
 powinno być silniejszym sygnałem
 podobieństwa tekstów.
