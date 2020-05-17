@@ -211,7 +211,7 @@ należy go wycofać przed przejściem do kolejnego podpunktu.
     Sprawdzić wpływ na jakość modelu
     używania ich substytutu: *N*-gramów.
     Zmienić w wywołaniu `TfidfVectorizer`
-    `analyzer` na `char_wb`,
+    `analyzer` na `'char_wb'`,
     dopisać `ngram_range=(5, 5)`
     i `max_features=40_000` (na przykład).
     Parametr `max_features`, który określa,
@@ -228,7 +228,7 @@ należy go wycofać przed przejściem do kolejnego podpunktu.
     Skorzystać z
     [dokumentacji klasy `TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer).
     Można na przykład spróbować
-    dodać argument `max_df=0.7` (na przykład).
+    dodać argument `max_df=0.7`.
     Stworzyć nowy model itd.
 
 12. W sprawozdaniu zamieścić
