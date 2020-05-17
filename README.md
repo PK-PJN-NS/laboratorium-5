@@ -65,8 +65,7 @@ Najlepiej wyjaśni to przykład.
     ```python
     >>> # Używamy własnego token_pattern w celach dydaktycznych,
     ... # ponieważ domyślny token_pattern ignoruje jednoliterowe wyrazy.
-    >>> v = CountVectorizer(
-    ...     token_pattern=r'\b\w+\b')
+    >>> v = CountVectorizer(token_pattern=r'\b\w+\b')
     >>> X = v.fit_transform([
     ...     'Ogniem i mieczem',
     ...     'W pustyni i w puszczy'])
@@ -163,8 +162,7 @@ Zaradzimy temu na dwa sposoby:
     a wyższe — rzadkim. Oto przykład:
 
     ```python
-    >>> v = TfidfVectorizer(
-    ...     token_pattern=r'\b\w+\b')
+    >>> v = TfidfVectorizer(token_pattern=r'\b\w+\b')
     >>> X = v.fit_transform([
     ...     'Ogniem i mieczem',
     ...     'W pustyni i w puszczy'])
