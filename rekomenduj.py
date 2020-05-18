@@ -2,10 +2,14 @@
 
 import collections
 import pickle
-import readline
 import sys
 
 from sklearn.metrics import pairwise
+
+try:
+    import readline
+except ImportError:
+    from pyreadline import Readline as readline
 
 
 def normalize(title):
@@ -13,7 +17,7 @@ def normalize(title):
 
 
 class Completer:
-    
+
     def __init__(self, titles):
         self.titles = collections.defaultdict(list)
         for title in titles:

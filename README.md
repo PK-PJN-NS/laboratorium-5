@@ -19,10 +19,12 @@ Wikipedii na dany temat.
 z narzędziami do uczenia maszynowego,
 oraz `mwparserfromhell` — pakiet do obróbki
 tekstów korzystających ze znaczników MediaWiki.
+Pod Windows należy też zainstalować `pyreadline`.
 
     ```
     pip install sklearn
     pip install mwparserfromhell
+    <<<POD WINDOWS>>> pip install pyreadline
     ```
 
 3. Wymyślić i zapisać tytuły pięciu dzieł,
@@ -60,7 +62,7 @@ tworzący na podstawie listy napisów rzadką macierz,
 której wiersze zawierają liczebności
 poszczególnych wyrazów
 w odpowiednim napisie.
-Najlepiej wyjaśni to przykład.
+Najlepiej wyjaśni to przykład:
 
     ```python
     >>> # Używamy własnego token_pattern w celach dydaktycznych,
