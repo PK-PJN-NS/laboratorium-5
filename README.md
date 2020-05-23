@@ -222,10 +222,14 @@ należy go wycofać przed przejściem do kolejnego podpunktu.
     e. Zadanie nadobowiązkowe:
     próbować poprawić najlepszy
     do tej pory model.
-    Skorzystać z
-    [dokumentacji klasy `TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer).
-    Można na przykład spróbować
-    dodać argument `max_df=0.7`.
+    Można skorzystać z
+    [dokumentacji klasy `TfidfVectorizer`](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer),
+    na przykład spróbować dodać
+    argument `max_df=0.7`.
+    Najlepszy efekt przyniosłoby jednak
+    zapewne użycie funkcji
+    `jednoznaczna_forma_podstawowa()` z
+    [laboratorium 1](https://github.com/PK-PJN-NS/laboratorium-1).
     Stworzyć nowy model itd.
 
 12. W sprawozdaniu zamieścić
