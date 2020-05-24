@@ -99,7 +99,10 @@ w mniejszej liczbie artykułów niż 3:
 o nazwie `model.pickle`.
 Zmienić jego nazwę na `baseline.pickle`
 i uruchomić program `rekomenduj.py`
-z argumentem `baseline.pickle`.
+z argumentem `baseline.pickle`
+(żeby działało uzupełnianie tytułów,
+trzeba go uruchomić z wiersza poleceń:
+`python3 rekomenduj.py baseline.pickle`).
 Program `rekomenduj.py` podaje takie tytuły dzieł,
 dla których jak najmniejsza jest *odległość kosinusowa*
 multizbiorów wyrazów w dotyczących ich artykułach
